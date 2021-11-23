@@ -1,0 +1,25 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+}
+
+.P1{
+    display: list-item;
+    list-style-type:armenian;/*Les marqueurs de puces seront des cercles*/
+    list-style-position: inside; /*Les marqueurs sont dans l'élément*/
+    background-color: #0cc;
+}
+
+.P2{
+    display: list-item;
+    list-style-type:circle;/*Les marqueurs de puces seront des cercles*/
+    list-style-position:outside; /*Les marqueurs sont en dehors de l'élément*/
+    background-color: rgb(0, 204, 27);
+}
+
+ul{
+    display: list-item;
+    list-style-type:circle;/*Les marqueurs de puces seront des cercles*/
+    list-style-position:outside; 
+    background-color: rgb(0, 204, 27);
+}

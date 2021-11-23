@@ -1,0 +1,101 @@
+.titre1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+
+.titre2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 1.8em;
+}
+
+.sousTitre {
+    color: white;
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    display: list-item;
+    list-style-type: none;
+    margin: 0;
+    margin-left: -45px;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr ;
+    background-color: black;
+    width: 100%;
+    margin: 0 auto;
+    /*gap: 10px;*/
+}
+
+.header {
+    background-color: grey;
+    grid-area: 1/1/3/3;
+    padding-left: 20px;
+    border: 2px solid black;
+}
+
+.sidebar {
+    background-color: rgb(140, 140, 255);
+}
+
+.sidebar2{
+    background-color: ivory;
+}
+
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+.footer {
+    background-color: rgb(211, 211, 211);
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.bas {
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-style: italic;
+}
+
+.paragraphe1 {
+    border: 2px solid rgb(1, 31, 97);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.titre2 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titre3 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.liens {
+    width: 90%;
+    height: 10%;
+    background-color: yellow;
+    padding: 5px;
+    text-align: center;
+    margin: 5px;
+}
+
+li:hover{
+    background-color: chocolate;
+    
+}

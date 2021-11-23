@@ -1,0 +1,114 @@
+                   body {
+                       background-color: beige;
+                       font-family: Verdana, Geneva, Tahoma, sans-serif;
+                       font-size: 100%;
+                       line-height: 1.5em;
+                   }
+
+                   h1 {
+                       font-size: 200%;
+                       /* Taille de la police en pourcentage */
+                       font-style: italic;
+                   }
+
+                   #bodyId1 {
+                       background-color: cadetblue;
+                   }
+
+                   .couleurFond {
+                       background-color: crimson;
+                   }
+
+                   /* Début de mise en forme tableau*/
+
+                   table {
+                       table-layout: fixed;
+                       width: 70%;
+                       border-collapse: collapse;
+                       border: 3px solid black;
+                       margin: 10px;
+                       margin:auto;
+                   }
+
+                   thead th:nth-child(1) {
+                       width: 50%;
+                   }
+
+                   thead th:nth-child(2) {
+                       width: 50%;
+                   }
+
+                   th, td {
+                       padding: 5px;
+                       border:2px solid black;
+                   }
+
+                   /* Typographie*/
+
+                   thead th, tfoot th {
+                       font-family: Helvetica, sans-serif;
+                   }
+
+                   th {
+                       letter-spacing: 2px;
+                   }
+
+                   td {
+                       letter-spacing: 1px;
+                   }
+
+                   tbody td {
+                       text-align: center;
+                   }
+
+                   tfoot th {
+                       text-align: center;
+                   }
+
+                   /* Fin de mise en forme tableau*/
+
+
+                   p {
+                       color: black;
+                   }
+
+                   .bigorange {
+                       color: orange;
+                       font-size: 24px;
+                   }
+
+                   #green {
+                       color: green;
+                   }
+
+                   #yellow {
+                       color: yellow;
+                   }
+
+                   ul {
+                       color: blueviolet;
+                       background-color: lightblue;
+                   }
+
+                
+                   div {
+                       color:white;
+                       /*Texte des éléments dans les Div, blancs par héritage */
+                       background-color: purple;
+                       /*Les Div auront un fond violet*/
+                       width: 80%;
+                       /*Définit la largeur des Div à 80% de leur éléments parent, ici Body */
+                       margin: 0 auto;
+                       /*Permet de centrer les Div dans leur élement parent, ici Body */
+                       text-align: center;  
+                       display:block;
+                   }
+
+                   span{
+                       font-weight: bold; /*Les textes seront en gras*/
+                       background-color: yellow;/*Fond des span en jaune*/
+                       color: black; /*Les textes seront en noirs*/
+                       font-style: italic;
+                   }
+
+                   font-family: 'Source Code Pro', monospace;

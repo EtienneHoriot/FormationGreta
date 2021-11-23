@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+p {
+    font-size: 20px;
+}
+
+div {
+    width: 30%;
+    height: 50px;
+    margin: 0 auto;
+    border: 2px solid black;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+/*Etat normal*/
+
+#tr1 {
+    background-color: orange;
+    transition-property: background-color;
+    transition-duration: 0.2s;
+}
+
+/*Lors du survol*/
+
+#tr1:hover {
+    background-color: blue;
+}
+
+#tr1:active {
+    background-color: rgb(9, 255, 0);
+}
+
+#tr2 {
+    background-color: orange;
+    transition-property: background-color;
+    transition-duration: 1s;
+}
+
+#tr3 {
+    background-color: orange;
+    transition-property: background-color, border;
+    transition-duration: 1s;
+}
+
+#tr4 {
+    background-color: orange;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+#tr2:hover, #tr3:hover, #tr4:hover {
+    background-color: blue;
+    border: 5px solid red;
+    color: white;
+}
+
+.affichageBoite{
+    width: 50%;
+    height: 60px;
+    margin: 20px auto;
+    border: 2px solid black;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 15px;
+    background-color: orangered;
+    transition-property: all;
+    transition-duration: 2s;
+}
+
+#tr5 {
+    transition-timing-function: ease;
+}
+
+#tr6 {
+    transition-timing-function: ease-in;
+     }
+
+#tr7{
+    transition-timing-function: ease-out;
+}
+
+#tr8 {
+    transition-timing-function: ease-in-out;
+  
+}
+
+#tr9 {
+    transition-timing-function: linear;
+    
+}
+
+#tr10 {
+    transition-timing-function: cubic-bezier(0.6, 0, 1, 1);
+}
+
+#tr5:hover, #tr6:hover, #tr7:hover, #tr8:hover, #tr9:hover, #tr10:hover {
+    width: 60%;
+    /*transform: rotate(90deg);*/
+    transform:scale(2) translate(20px, -2vh);
+    transform:rotate(720deg);
+    background-color: palevioletred;
+}
+
+#tr5:active, #tr6:active, #tr7:active, #tr8:active, #tr9:active, #tr10:active {
+    width: 60%;
+    background-color: purple;
+}

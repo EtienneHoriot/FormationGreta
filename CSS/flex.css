@@ -1,0 +1,59 @@
+#conteneur
+{
+  display: flex;
+  background-color: rgb(194, 193, 193);
+  border: 10px solid rgb(0, 206, 0);
+  width: 300px;
+  height: 500px;
+  margin: 20% auto;
+  /* direction d'entrée des éléments */
+  flex-direction: row;
+  /* si débordement alors passage à la ligne suivante ou colonne suivante */
+  flex-wrap: wrap;
+  /* Le padding nous permettra de voir les débordements */
+  padding: 20px;
+  /* indique la position des éléments flexibles à l'intérieur du conteneur */
+  justify-content: center;
+  align-content: center;
+
+}
+.affichageBox
+{
+  border: 1px solid black;
+  width: 100px;
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+}
+#element1
+{
+  background-color: orange;
+  flex: auto;
+}
+#element2
+{
+  background-color: rgb(17, 0, 255);
+  align-content: center;
+  flex: auto;
+}
+#element3
+{
+  background-color: rgb(9, 255, 0);
+}
+#element4
+{
+  background-color: rgb(255, 0, 0);
+}
+#element5
+{
+  background-color: rgb(255, 0, 234);
+  /*align-self: flex-end;*/
+}
+
+.dernier{
+    order: 4;
+}
+
+.premier{
+    order: -2;
+}

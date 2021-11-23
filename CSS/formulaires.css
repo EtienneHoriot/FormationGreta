@@ -1,0 +1,20 @@
+.champ {
+    margin-bottom: 10px;
+}
+
+div {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.formulaire {
+    border: solid 1px black;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    padding-top: 25px;
+    margin-top: 50vh;
+    /* poussé de la moitié de hauteur de viewport */
+    transform: translateY(-50%);
+    /* tiré de la moitié de sa propre hauteur */
+}
